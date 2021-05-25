@@ -1,0 +1,82 @@
+html {
+    font-size: 62.5%;
+    @media screen and (min-width: 400px) {
+        html {
+            font-size: 130%;
+        }
+    }
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    color: #222;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color: #111;
+}
+
+/*! Code to manipulate the nav bar dependant on viewport */
+nav {
+    background:#111;
+    padding: .7rem;
+}
+
+.logo {
+    color: #fff;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    align-items: center;
+    margin: 0rem .2rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    align-items: center;
+}
+
+nav li {
+    margin: 0rem .2rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc
+}
+
+@media screen and (min-width: 768px)  {
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    nav li {
+        margin: 0 1rem;
+    }
+}
+/*! Code for nav bar ends here */
+
+/*! Code for .profilepic from here */
+.profilepic img {
+    object-fit: cover;
+    width: 100%;
+    border: 0px, 5px
+}
+/*! Code for .profilepic ends here */
+
+/*! Code for .shopfront start here */
+.shopfront img {
+    object-fit: cover;
+    width: 100%;
+    border: 0px, 5px
+}
+/*! Code for .shopfront ends here */
